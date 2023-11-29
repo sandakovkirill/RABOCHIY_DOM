@@ -1,15 +1,15 @@
 
-const accordionTitles = document.querySelectorAll(".accordion-title");
+const phonePopup = document.querySelectorAll(".accordion-title");
 
-accordionTitles.forEach((accordionTitle) => {
-  accordionTitle.addEventListener("click", () => {
-    const height = accordionTitle.nextElementSibling.scrollHeight;
+phonePopup.forEach((phonePopup) => {
+  phonePopup.addEventListener("click", () => {
+    const height = phonePopup.nextElementSibling.scrollHeight;
     console.log(height);
-    accordionTitle.classList.toggle("active-header");
-    if (accordionTitle.classList.contains("active-header")) {
-     accordionTitle.nextElementSibling.style.maxHeight = `${height}px`;
+    phonePopup.classList.toggle("active-header");
+    if (phonePopup.classList.contains("active-header")) {
+     phonePopup.nextElementSibling.style.maxHeight = `${height}px`;
     } else {
-    accordionTitle.nextElementSibling.style.maxHeight = "0px";
+    phonePopup.nextElementSibling.style.maxHeight = "0px";
     }
 
 
