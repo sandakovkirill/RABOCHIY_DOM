@@ -1,0 +1,19 @@
+<svg width="356" height="356" viewBox="0 0 356 356" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_43_25)">
+<circle cx="178" cy="178" r="28" transform="rotate(-90 178 178)" fill="#004F44"/>
+</g>
+<circle cx="178" cy="178" r="28" transform="rotate(-90 178 178)" fill="#FF9900"/>
+<g clip-path="url(#clip0_43_25)">
+<path d="M186.453 175.909L178 167.5L169.548 175.909C169.448 175.985 169.366 176.081 169.306 176.192C169.247 176.302 169.212 176.424 169.204 176.549C169.196 176.674 169.215 176.8 169.26 176.917C169.305 177.034 169.374 177.14 169.463 177.228C169.553 177.316 169.66 177.384 169.777 177.427C169.895 177.47 170.021 177.487 170.146 177.477C170.271 177.467 170.392 177.431 170.502 177.37C170.611 177.309 170.707 177.226 170.781 177.125L177.125 170.834L177.125 187.573C177.125 187.805 177.217 188.027 177.381 188.191C177.545 188.355 177.768 188.448 178 188.448C178.232 188.448 178.455 188.355 178.619 188.191C178.783 188.027 178.875 187.805 178.875 187.573L178.875 170.834L185.219 177.125C185.384 177.289 185.607 177.38 185.839 177.379C186.071 177.378 186.293 177.285 186.457 177.121C186.621 176.956 186.712 176.733 186.711 176.501C186.71 176.268 186.617 176.046 186.453 175.883L186.453 175.909Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_f_43_25" x="0" y="0" width="356" height="356" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="75" result="effect1_foregroundBlur_43_25"/>
+</filter>
+<clipPath id="clip0_43_25">
+<rect width="31.5" height="31.5" fill="white" transform="translate(162.25 162.25)"/>
+</clipPath>
+</defs>
+</svg>
