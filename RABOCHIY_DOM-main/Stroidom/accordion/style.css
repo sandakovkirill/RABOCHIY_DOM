@@ -1,0 +1,46 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background-color: #FF9900
+}
+
+.accordion {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.accordion-item {
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: #FFFFFF
+}
+
+.accordion-title {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.accordion-title::after {
+  content: "+";
+  font-size: 40px;
+  margin-left: auto;
+}
+
+.active-header::after {
+  content: "-";
+}
+
+.accordion-answer {
+  max-height: 50;
+  overflow: hidden;
+  transition: 1000ms ease max-height;
+}
