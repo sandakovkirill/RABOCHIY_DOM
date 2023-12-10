@@ -1,0 +1,107 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+  }
+  body {
+    background: none;
+    font-family: "Raleway", sens-serif;
+  }
+  .center {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+  }
+  .center button {
+    padding:10px 20px;
+    font-size:16px;
+    font-weight:600;
+    color:#FFFFFF;
+    background-color:#FF9900;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    border-radius:90px;
+    width:150px;
+  }
+  .popup {
+    position:absolute;
+    top: -150%;
+    left: 50%;
+    opacity:1;
+    transform:translate(-50%, -50%) scale(1.25);
+    width:900px;
+    height:650px;
+    padding:20px 30px;
+    background: #1E1E1E;
+    box-shadow:2px 2px 5px 5px rgba(0,0,0,0.15);
+    border-radius:10px;
+    transition:top 0ms ease-in-out 200ms,
+               opacity 200ms ease-in-out 0ms,
+               transform 20ms ease-in-out 0ms;
+   }
+  .pop.active {
+    top:50%;
+    opacity:1;
+    transform:translate(-50%, -50%) scale(1);
+    transition:top 0ms ease-in-out 0ms,
+               opacity 200ms ease-in-out 0ms,
+               transform 20ms ease-in-out 0ms;
+  }
+  .popup .close-btn {
+    position:absolute;
+    top:10px;
+    right:10px;
+    width:15px;
+    height:15px;
+    color: #FFFFFF;
+    text-align:center;
+    line-height:15px;
+    border-radius:15px;
+    cursor:pointer;
+  }
+  .popup .form h2 {
+    text-align:center;
+    color:#FF9900;
+    margin:10px 0px 20px;
+    font-size:32px;
+  }
+  .popup .form .form-element {
+    margin:34px 0px;
+  }
+  .popup .form .form-element input[type="text"] {
+    margin-top:5px; 
+    display:block;
+    width:100%;
+    padding:10px;
+    height:60px;
+    background-color:#D9D9D9;
+    border-radius: 40px;
+    font-size:20px;
+    color: #A3A2A2;
+  }
+  .popup .form .form-element input[type="message"] {
+    margin-top:5px; 
+    display:block;
+    width:100%;
+    padding:10px;
+    height:155px;
+    background-color:#D9D9D9;
+    border-radius: 40px;
+    font-size:20px;
+    color: #A3A2A2;
+  }
+  .popup .form .form-element button {
+    width: 400px;
+    position: fixed;
+    left: 256px;
+    height: 66px;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    font-size: 24px;
+    border-radius: 40px;
+    cursor: pointer;
+    outline: none;
+  }
+    
