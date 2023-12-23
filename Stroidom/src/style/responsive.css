@@ -1,0 +1,180 @@
+@media (max-width: 1140px) {
+.tagline-title, .button-hamburger{
+        display: flex;
+}
+.menu{  
+        display: none;
+        padding: 0px;
+        border: none;
+        position: fixed;
+        width: 100%;
+}
+.hamburger-menu{
+        display: flex;
+        padding: 20px 0px 20px 0px;
+        justify-content: center;
+}
+.navbar{
+        flex-direction: column;
+}
+.navbar__item{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        margin-left: 0px;
+        width: 100%;
+        padding: 5px 0px 5px 0px;
+        background-color: #1a293a;
+        border-top: 1px solid white ;
+}
+.communications_list{
+        flex-direction: column;
+}
+.communications_list{
+        display: none;
+}
+.display-block{
+        display: block;
+}
+.display-none{
+        display: none;
+}
+.our-contacts-button{
+        display: flex;
+        background-color: #1a293a;
+        justify-content: center;
+
+}
+.our-contacts-button p{
+        font-size: 25px;
+}
+.tagline__title{
+        display: none;
+}
+.header_bottom{
+        margin: 0px;
+        flex-direction: column;
+        align-items: center;
+}
+.picture-section{
+        order: 1;
+}
+.tagline{
+        order: 2;
+}
+.our-works{
+        display: none;
+}
+.tagline__subtitle{
+        padding: 20px 0px;
+}
+
+.tagline__buttons{
+        margin: 0px;
+        justify-content: center;
+}
+.tagline-button{
+        width: 100%;
+}
+.about-us__inner{
+        padding: 0px 20px;
+}
+.contact-form{
+        width: 500px;     
+}
+.contact-form__input, .contact-form__textarea, .contact-form__button{
+        width: 400px;
+}
+}
+
+
+@media (max-width: 650px){
+.picture-section__images{
+        display: none;
+}
+.contact-form{
+        width: 350px;     
+}
+.contact-form__input, .contact-form__textarea, .contact-form__button{
+        width: 250px;
+}
+.contact-form__input{
+        margin-bottom: 10%;
+}
+.contact-form__textarea{
+        height: 70px;
+}
+.contact-form__button{
+        padding: 10px 0px;
+}
+}
+
+
+@media (max-width:950px){
+header{
+         min-height: auto;
+}
+.about-us__inner{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 150px;
+}
+.about-us__article{
+        width: 100%;
+        text-align: center;
+}
+.image-block{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+}
+.image-block__parameters{
+        width: 200px;
+}
+.about-us__advantage{
+        margin-top: 0px;
+}
+.about-us__advantage__text{
+        font-size: 10px;
+}
+.text-article{
+        margin-top: 15px;
+}
+.title-article__h2{
+        font-size: 24px;
+        text-wrap: auto;
+}
+.button-article{
+        margin-top: 40px;
+}
+.button-article__options{
+        width: 95%;
+}
+.text-article__size{
+        font-size: 16px;
+        text-wrap: balance;
+    }
+.our-achievements__inner{
+        flex-direction: column;
+        text-align: center;
+        padding: 0px 20px;
+}
+.image_article-order-1{
+        order: 1;
+}
+.our-achievements-article{
+        order: 2;
+}
+.button-article-position-center-950px{
+        justify-content: center;    
+}
+.text-article-950px{
+        padding: 0px;
+}
+.elements-feature{
+        flex-direction: column;
+}
+.element-feature{
+        margin-bottom: 50px;
+}
+}
